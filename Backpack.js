@@ -8,6 +8,7 @@ class BackPack{
         strapLengthR,
         lidOpen,
         dateAcquired,
+        image,
     ){
         this.name=name;
         this.volume=volume;
@@ -19,6 +20,7 @@ class BackPack{
         };
         this.lidOpen=lidOpen;
         this.dateAcquired=dateAcquired;
+        this.image = image;
     }
     toggleLid(newState){
         this.lidOpen =  newState;
